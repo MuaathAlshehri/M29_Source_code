@@ -1,0 +1,12 @@
+node_modules/
+venv/
+__pycache__/
+bin/
+obj/
+dist/
+.env
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
