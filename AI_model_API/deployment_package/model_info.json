@@ -1,0 +1,21 @@
+{
+  "best_model_name": "XGBoost",
+  "target_column": "Is Laundering",
+  "n_input_features": 13,
+  "feature_columns": [
+    "Amount Received",
+    "Receiving Currency",
+    "Amount Paid",
+    "Payment Currency",
+    "Payment Format",
+    "year",
+    "month",
+    "day",
+    "hour",
+    "From Bank_freq",
+    "To Bank_freq",
+    "Account_freq",
+    "Account.1_freq"
+  ],
+  "threshold": 0.3
+}
