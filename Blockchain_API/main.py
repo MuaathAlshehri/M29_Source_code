@@ -14,7 +14,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
 
 
-PRIVATE_KEY = "0x6d88b388bd5f07ac657639a6889f03142467ccab8ea89992d6d05647afe5c8b3"
+PRIVATE_KEY = "Your_Private_Key"
 
 WALLET_ADDRESS = w3.eth.account.from_key(
     PRIVATE_KEY
@@ -23,7 +23,7 @@ WALLET_ADDRESS = w3.eth.account.from_key(
 
 
 CONTRACT_ADDRESS = Web3.to_checksum_address(
-    "0xBc8AA871dEa3d231de549AefDa161cf5B93551BD"
+    "Your_Contract_Address"
 )
 
 ABI = [
